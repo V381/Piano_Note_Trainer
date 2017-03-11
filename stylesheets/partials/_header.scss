@@ -1,0 +1,16 @@
+@import "./variables/_variables";
+
+header{
+  background: $defaultbg;
+  box-shadow: 2px 2px 2px #464646;
+  width: 103%;
+  h1{
+    padding: 20px;
+    font-size: 2.5em;
+    text-align: center;
+    color: #ffffff;
+    &:first-letter{
+      color: red;
+    }
+  }
+}

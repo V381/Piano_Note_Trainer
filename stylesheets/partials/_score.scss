@@ -1,0 +1,23 @@
+.score__correct{
+    padding: 20px;
+    color: green;
+    font-size: 2em;
+}
+
+.score__incorrect{
+    padding: 20px;
+    color: red;
+    font-size: 2em;
+}
+
+.score{
+    h1{
+        display: inline-block;
+        font-size: 2em;
+    }
+    ul{
+        li{
+            display: inline-block;
+        }
+    }
+}

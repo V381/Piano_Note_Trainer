@@ -1,0 +1,13 @@
+@import 'partials/_reset';
+@import 'partials/_header';
+@import 'partials/_piano';
+@import 'partials/notes-to-guess';
+@import 'partials/score';
+
+@include meyer-reset();
+
+.container{
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}

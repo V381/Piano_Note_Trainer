@@ -1,0 +1,19 @@
+.notes-to-guess__notes{
+    text-align: center;
+    button{
+          background: linear-gradient(-30deg, #f8f8f8, #fff);
+          height: 70px;
+          width: 70px;
+          font-size: 1em;
+    }
+}
+
+.notes-to-guess{
+    h1{
+        text-align: center;
+        font-size: 2em;
+        margin-bottom : 20px;
+        position: relative;
+        top: -13px;
+    }
+}
