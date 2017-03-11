@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Piano Note Trainer</title>
+        <meta name="description" content="Piano Note Trainer that helps you memorize notes on piano">
+        <!--<link type='text/css' rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.css'>-->
+        <link type="text/css" rel="stylesheet" href="stylesheets/main.css">
+        <link rel="icon" href="assets/images/icon.png" type="image/x-icon" />
+    </head>
+    <body>
+
+        <header>
+            <h1>Piano Note Trainer</h1>
+        </header>
+
+        <main>
+                        <div class="piano">
+                            <div class="piano__keys">
+                                <div class="keys__white-key"><span data-attr="C" class="white-key__key"></span></div>
+                                <div class="keys__black-key"><span class="sharp" data-attr="C#"></span></div>
+                            </div>
+                            <div class="piano__keys">
+                                <div class="keys__white-key"><span data-attr="D" class="white-key__key"></span></div>
+                                <div class="keys__black-key"><span class="sharp"data-attr="D#"></span></div>
+                            </div>  
+                            <div class="piano__keys">
+                                <div class="keys__white-key"><span data-attr="E" class="white-key__key"></span></div>
+                            </div> 
+                            <div class="piano__keys">
+                                <div class="keys__white-key"><span data-attr="F" class="white-key__key"></span></div>
+                                <div class="keys__black-key"><span class="sharp" data-attr="F#"></span></div>
+                            </div>
+                            <div class="piano__keys">
+                                <div class="keys__white-key"><span data-attr="G" class="white-key__key"></span></div>
+                                <div class="keys__black-key"><span class="sharp" data-attr="G#"></span></div>
+                            </div>
+                            <div class="piano__keys">
+                                <div class="keys__white-key"><span data-attr="A" class="white-key__key"></span></div>
+                                <div class="keys__black-key"><span class="sharp" data-attr="A#"></span></div>
+                            </div>
+                            <div class="piano__keys">
+                                <div class="keys__white-key"><span data-attr="B" class="white-key__key"></span></div>
+                            </div>
+                            <div class="piano__keys">
+                                <div class="keys__white-key"><span data-attr="C" class="white-key__key"></span></div>
+                                <div class="keys__black-key"><span class="sharp" data-attr="C#"></span></div>
+                            </div>
+                            <div class="piano__keys">
+                                <div class="keys__white-key"><span data-attr="D" class="white-key__key"></span></div>
+                                <div class="keys__black-key"><span class="sharp" data-attr="D#"></span></div>
+                            </div>  
+                            <div class="piano__keys">
+                                <div class="keys__white-key"><span data-attr="E" class="white-key__key"></span></div>
+                            </div> 
+                            <div class="piano__keys">
+                                <div class="keys__white-key"><span data-attr="F" class="white-key__key"></span></div>
+                                <div class="keys__black-key"><span class="sharp" data-attr="F#"></span></div>
+                            </div>
+                            <div class="piano__keys">
+                                <div class="keys__white-key"><span data-attr="G" class="white-key__key"></span></div>
+                                <div class="keys__black-key"><span class="sharp" data-attr="G#"></span></div>
+                            </div>
+                            <div class="piano__keys">
+                                <div class="keys__white-key"><span data-attr="A" class="white-key__key"></span></div>
+                                <div class="keys__black-key"><span class="sharp" data-attr="A#"></span></div>
+                            </div>
+                            <div class="piano__keys">
+                                <div class="keys__white-key"><span data-attr="B" class="white-key__key"></span></div>
+                            </div>
+
+                        </div>
+        
+        </main>
+
+       <div class="container">
+            <div class="notes-to-guess">
+                    <h1 class="text-center">Guess the note:</h1>
+                    <div class="notes-to-guess__notes">
+                        <button>E</button>
+                        <button>F</button>
+                        <button>F#</button>
+                        <button>G</button>
+                        <button>G#</button>
+                        <button>A</button>
+                        <button>A#</button>
+                        <button>B</button>
+                        <button>C</button>
+                        <button>C#</button>
+                        <button>D</button>
+                        <button>D#</button>
+                    </div>
+            </div>
+
+        <div class="score">
+            <ul>
+                <li><h1>Score:</h1></li>
+                <li class="score__correct">0</li>
+                <li class="score__incorrect">0</li>
+            </ul>
+        </div>
+
+        </div>
+    
+
+    <!--<script src="../node_modules/systemjs/dist/system.js"></script>
+    <script>
+        SystemJS.import('typescript/app.js');
+    </script>>-->
+
+    <script src='typescript/app.js'></script>
+
+
+    </body>
+</html>
